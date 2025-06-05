@@ -286,108 +286,7 @@ footer p {
 /* --- Responsive Design --- */
 
 /* Tablet Styles (<= 768px) */
-@media (max-width: 768px) {
-  body {
-    font-size: 15px;
-  }
 
-  main {
-    margin: 4vh 8vw;
-  }
-
-  h1 {
-    font-size: 1.8em;
-  }
-
-  h2 {
-    font-size: 1.4em;
-  }
-
-  header .container {
-    max-width: 95vw;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  header nav ul {
-    text-align: center;
-  }
-
-  header nav li {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .display-flex {
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-  }
-
-  /* Index */
-  .img-tela-toda {
-    height: 40vh;
-    margin: 1.5rem calc(-1 * 8vw);
-  }
-
-  .apresentacao .display-flex {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .apresentacao .display-flex img {
-    width: 60%;
-    max-width: 300px;
-  }
-
-  /* Produtos */
-  .produtos-container {
-    margin: 4vh 5vw;
-  }
-
-  .produto-card {
-    width: 40vw;
-  }
-
-  .produto-imagem {
-    height: 180px;
-  }
-
-  /* Quem Somos */
-  .sobre-img-loja {
-    width: 80%;
-    max-width: 500px;
-  }
-
-  .redes-sociais-container {
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-  }
-
-  /* Trabalhe Conosco */
-  .trabalhe-conosco-main .display-flex {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .img-trabalhe-conosco {
-    min-width: 0;
-    max-width: 90%;
-    order: -1;
-  }
-
-  /* Decoracao */
-  .imgs-dica {
-    width: 100%;
-  }
-
-  .img-dica {
-    width: clamp(180px, 40vw, 250px);
-    height: auto;
-    aspect-ratio: 5 / 4;
-  }
-}
 
 /* Mobile Styles (<= 480px) */
 @media (max-width: 480px) {
@@ -408,7 +307,9 @@ footer p {
   }
 
   header .container {
-    padding: 5px 0;
+    max-width: 95vw;
+    flex-direction: column;
+    gap: 10px;
   }
 
   header nav li {
@@ -420,6 +321,12 @@ footer p {
   header a {
     display: block;
     padding: 5px 8px;
+  }
+
+  .display-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
   }
 
   /* Index */
@@ -470,6 +377,13 @@ footer p {
   }
 
   /* Decoracao */
+.imgs-dica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    gap: 0.5rem;
+  }
+
   .img-dica {
     width: 80vw;
   }

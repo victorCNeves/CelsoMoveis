@@ -225,21 +225,6 @@ footer p {
   padding-top: 0.5rem;
 }
 
-.produto-comprar {
-  background-color: #ff6a00;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.produto-comprar:hover {
-  background-color: #d35400;
-}
-
 /* Quem Somos */
 .sobre-img-loja {
   width: 60%;

@@ -283,6 +283,18 @@ footer p {
   object-fit: cover;
 }
 
+
+/* Responsividade menu */
+@media (max-width: 1036px){
+  header h1 {
+    margin-top: 20px;
+  }
+
+  header nav li {
+    margin-top: 20px;
+  }
+}
+
 /* Mobile */
 @media (max-width: 700px) {
   body {

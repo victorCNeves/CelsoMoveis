@@ -283,13 +283,8 @@ footer p {
   object-fit: cover;
 }
 
-/* --- Responsive Design --- */
-
-/* Tablet Styles (<= 768px) */
-
-
-/* Mobile Styles (<= 480px) */
-@media (max-width: 480px) {
+/* Mobile */
+@media (max-width: 700px) {
   body {
     font-size: 14px;
   }
